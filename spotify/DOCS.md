@@ -87,6 +87,14 @@ to disallow guests on your network to use the add-on.
 ### Option: `password`
 
 The password you use to login to your Spotify Premium account.
+### Option: `additional_options`
+
+**Advanced**: appends aditional options when calling the `librespot` program. More info about the available options [here][librespot-options]
+
+Example:
+```yaml
+additional_options: "--initial-volume 50 --ap-port 443"
+```
 
 ## Known issues and limitations
 
@@ -162,3 +170,4 @@ SOFTWARE.
 [reddit]: https://reddit.com/r/homeassistant
 [releases]: https://github.com/hassio-addons/addon-spotify-connect/releases
 [semver]: http://semver.org/spec/v2.0.0.htm
+[librespot-options]: https://github.com/librespot-org/librespot/wiki/Options
